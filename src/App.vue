@@ -1,15 +1,17 @@
 <template>
   <v-app>
-    <v-content>
-      <Header></Header>
-      <HelloWorld/>
-    </v-content>
+    <Header></Header>
+    <transition name="fadeDownBig">
+      <router-view></router-view>
+    </transition>
+    
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
-import Header from './components/Header'
+import Header from './components/Header';
+import ContenidoHome from './components/ContenidoHome';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
   components: {
     HelloWorld,
     Header,
+    ContenidoHome
   },
 
   data: () => ({

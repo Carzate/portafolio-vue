@@ -12,6 +12,7 @@
         <v-list-item
           v-for="item in items"
           :key="item.title"
+          :to="item.link"
           link
         >
           <v-list-item-icon>
@@ -35,9 +36,9 @@ export default {
     return {
         drawer: false,
         items: [
-             { title: 'Dashboard', icon: 'mdi-view-dashboard' },
-            { title: 'Account', icon: 'mdi-account' },
-            { title: 'Admin', icon: 'mdi-gavel' },
+            { title: 'Home', icon: 'mdi-view-dashboard', link: '/' },
+            { title: 'About', icon: 'mdi-account', link: '/about' },
+            { title: 'Portafolio', icon: 'mdi-gavel', link: 'portafolio/1' },
         ]
     }
 },
