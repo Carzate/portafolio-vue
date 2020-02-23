@@ -1,10 +1,7 @@
 <template>
   <v-app>
     <Header></Header>
-    <transition name="fadeDownBig">
       <router-view></router-view>
-    </transition>
-    
   </v-app>
 </template>
 

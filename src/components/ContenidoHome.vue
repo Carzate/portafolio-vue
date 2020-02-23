@@ -3,7 +3,7 @@
         <v-container>
             <v-row>
                 <v-col md="4" sm="6" v-for="item in cards" :key="item.titulo">
-                    <v-card>
+                    <v-card data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
                         <v-img  class="white--text align-end"
                         height="200px"
                         src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"></v-img>
@@ -18,6 +18,13 @@
                     </v-card-actions>
                     </v-card>
                 </v-col>
+            </v-row>
+            <v-row>
+                <v-card>
+                    <v-card-title primary-title>
+                        Ejemplo
+                    </v-card-title>
+                </v-card>
             </v-row>
         </v-container>
         
