@@ -1,29 +1,42 @@
 <template>
 <div>
-    <v-app-bar color="primary">
-        <v-app-bar-nav-icon color="white" @click="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-toolbar-title color="white">CEAF</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-btn color="success" class="mr-2">Ingresar</v-btn>
-        <v-btn color="error">Salir</v-btn>
+    <v-app-bar
+      class="hidden-md-and-up"
+      color="indigo"
+      dark
+      app
+    >
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
-    <v-navigation-drawer app v-model="drawer" temporary>
-        <v-list>
-        <v-list-item
-          v-for="item in items"
-          :key="item.title"
-          :to="item.link"
-          link
-        >
-          <v-list-item-icon>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-icon>
 
+    <v-navigation-drawer
+      :permanent="$vuetify.breakpoint.mdOnly"
+      v-model="drawer"
+      app
+    >
+      <h1 id="logo"><a href="#"><span>CE</span><span>AF</span></a></h1>
+      <v-list dense>
+        <v-list-item v-for="item in items"
+          :key="item.title"
+          :to="item.link" link>
+          <v-list-item-action>
+            <v-icon>{{item.icon}}</v-icon>
+          </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title class="font-15">{{item.title}}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
+        <v-footer absolute>
+          <v-row>
+            <v-btn v-for="item in icons" :key="item.icons" class="mx-2 mb-4 mt-3" fab dark x-small color="black">
+          <v-icon size="13px">{{ item.icons }}</v-icon>
+                  </v-btn>
+          </v-row>
+          <p>{{ new Date().getFullYear() }} — CEAF</p>
+          
+
+        </v-footer>
     </v-navigation-drawer>
 
 </div>
@@ -33,15 +46,20 @@
 export default {
     name: 'Header',
     data() {
-    return {
-        drawer: false,
-        items: [
-            { title: 'Home', icon: 'mdi-view-dashboard', link: '/' },
-            { title: 'About', icon: 'mdi-account', link: '/about' },
-            { title: 'Portafolio', icon: 'mdi-gavel', link: 'portafolio/1' },
-        ]
-    }
-},
+      return {
+          drawer: null,
+          items: [
+              { title: 'Inicio', icon: 'mdi-view-dashboard', link: '/' },
+              { title: 'Acerca', icon: 'mdi-account', link: '/about' },
+              { title: 'Trabajos', icon: 'mdi-gavel', link: 'portafolio/1' },
+                ],
+          icons: [
+              { icons: 'mdi-instagram'},
+              { icons: 'mdi-facebook'},
+              { icons: 'mdi-linkedin'}
+          ]
+              }
+          },
 }
 
 </script>

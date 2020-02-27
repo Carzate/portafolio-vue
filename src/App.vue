@@ -1,9 +1,15 @@
 <template>
   <v-app>
     <Header></Header>
-      <router-view></router-view>
+      <v-content>
+         <router-view></router-view>
+      </v-content>
   </v-app>
 </template>
+
+<style>
+  @import './assets/styles/styles.css';
+</style>
 
 <script>
 import HelloWorld from './components/HelloWorld';

@@ -8,8 +8,10 @@ import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import VueAgile from 'vue-agile';
 
 Vue.config.productionTip = false
+Vue.use(VueAgile)
 
 new Vue({
   created() {

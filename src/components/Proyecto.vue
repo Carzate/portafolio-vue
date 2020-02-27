@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Foto desde componente: {{ $route.params.id }}</h1>
+        <h1>Proyecto número: {{ $route.params.id }}</h1>
     </div>
 </template>
 
