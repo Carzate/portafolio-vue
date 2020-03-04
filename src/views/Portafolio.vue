@@ -30,11 +30,11 @@ export default {
     data(){
     return {
         portafolio: [
-            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/proyecto' },
-            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat'},
-            {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby'},
-            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro'},
-            {sitio: 'Cumpleaños Nicolás', picture: 'Nico.jpg', alt:'Proyecto Cumpleaños'},
+            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/urbaby' },
+            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat', link: '/akurat'},
+            {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby', link: '/jetsurf'},
+            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro', link: '/cultiva'},
+            {sitio: 'Cumpleaños Nicolás', picture: 'Nico.jpg', alt:'Proyecto Cumpleaños', link: '/nico'},
             {sitio: 'Artista Rafa Gual', picture: 'Rafa.jpg', alt:'Proyecto Rafa Gual'},
         ]
     }

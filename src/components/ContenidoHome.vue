@@ -3,9 +3,10 @@
         <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
             <div class="principal">
                 <agile :nav-buttons="false" :autoplay-speed="4000" :speed="1500" fade="fade" autoplay="autoplay">
-                    <img class="slide" src="https://images.unsplash.com/photo-1509549649946-f1b6276d4f35?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
-                    <img class="slide" src="https://images.unsplash.com/photo-1511469054436-c7dedf24c66b?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/>
-                    <img class="slide" src="https://images.unsplash.com/photo-1511135232973-c3ee80040060?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/><img class="slide" src="https://images.unsplash.com/photo-1511231683436-44735d14c11c?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/><img class="slide" src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/>
+                    <img class="slide" src="@/assets/images/desk-3.jpg"/>
+                    <img class="slide" src="@/assets/images/code-2.jpg"/>
+                    <img class="slide" src="@/assets/images/desk-2.jpg"/>
+                    <img class="slide" src="@/assets/images/code.jpg"/>
                 </agile>
             </div>
         </div>
@@ -13,7 +14,7 @@
             <v-container>
                 <v-row>
                     <v-col cols="12" md="7">
-                        <img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" width="100%">
+                        <img src="@/assets/images/port.jpg" width="100%">
                     </v-col>
                     <v-col cols="12" md="5">
                         <p class="heading">Bienvenido</p>
@@ -32,7 +33,7 @@
                         <v-expansion-panel>
                         <v-expansion-panel-header>Descargar CV</v-expansion-panel-header>
                         <v-expansion-panel-content>
-                            <v-btn color="black" dark rounded>Descargar</v-btn>
+                            <v-btn color="black" dark rounded target="_blank" to="//drive.google.com/file/d/1TfZ4fm0aYeJzyXcaSvjiCeCt6c-YhFJS/view?usp=sharing">Descargar</v-btn>
                         </v-expansion-panel-content>
                         </v-expansion-panel>
                         </v-expansion-panels>
@@ -108,15 +109,15 @@ export default {
         exp: [
             {icon: 'mdi-code-tags', title: 'Desarrollo Web', descripcion: 'Con las nuevas tecnologías creo desde páginas sencillas hasta aplicaciones web.'},
             {icon: 'mdi-border-color', title: 'Diseño Web', descripcion: 'Con las tendencias del diseño hago páginas adaptables a todos los dispositivos.'},
+            {icon: 'mdi-currency-usd', title: 'E-commerce', descripcion: 'Creación de tiendas en línea utilizando Wordpress y Shopify'},
             {icon: 'mdi-google', title: 'Google Ads', descripcion: 'Para posicionar las páginas en los primeros resultados de Google.'},
             {icon: 'mdi-facebook', title: 'Social Media', descripcion: 'Publicación de contenido incluyendo Facebook Ads y tráfico segmentado a web.'},
-            {icon: 'mdi-currency-usd', title: 'E-commerce', descripcion: 'Creación de tiendas en línea utilizando Wordpress y Shopify'}
         ],
         portafolio: [
-            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/proyecto' },
-            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat'},
-            {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby'},
-            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro'}
+            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/urbaby' },
+            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat', link: '/akurat'},
+            {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby', link: '/jetsurf'},
+            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro', link: '/cultiva'}
         ]
     }
     },

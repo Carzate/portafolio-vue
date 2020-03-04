@@ -30,7 +30,7 @@
       </v-list>
         <v-footer absolute>
           <v-row>
-            <v-btn v-for="item in icons" :key="item.icons" class="mx-2 mb-4 mt-3" fab dark x-small color="black">
+            <v-btn v-for="item in icons" :key="item.icons" :to="item.link" link target="_blank" class="mx-2 mb-4 mt-3" fab dark x-small color="black">
           <v-icon size="13px">{{ item.icons }}</v-icon>
                   </v-btn>
           </v-row>
@@ -55,9 +55,9 @@ export default {
               { title: 'Trabajos', icon: 'mdi-briefcase', link: 'portafolio' },
                 ],
           icons: [
-              { icons: 'mdi-instagram'},
-              { icons: 'mdi-facebook'},
-              { icons: 'mdi-linkedin'}
+              { icons: 'mdi-instagram', link: '//www.instagram.com/ichrisaf/'},
+              { icons: 'mdi-facebook', link: '//www.facebook.com/iChristianArzate'},
+              { icons: 'mdi-linkedin', link: '//www.linkedin.com/in/christian-arzate/'}
           ]
               }
           },

@@ -24,9 +24,29 @@ const routes = [
     component: () => import('../views/Portafolio.vue')
   },
   {
-    path: '/proyecto',
-    name: 'Proyecto',
-    component: () => import('../views/Proyectos.vue')
+    path: '/urbaby',
+    name: 'Urbaby',
+    component: () => import('../views/Urbaby.vue')
+  },
+  {
+    path: '/akurat',
+    name: 'Akurat',
+    component: () => import('../views/Akurat.vue')
+  },
+  {
+    path: '/jetsurf',
+    name: 'Jetsurf',
+    component: () => import('../views/Jetsurf.vue')
+  },
+  {
+    path: '/cultiva',
+    name: 'Cultiva',
+    component: () => import('../views/Cultiva.vue')
+  },
+  {
+    path: '/nico',
+    name: 'Nico',
+    component: () => import('../views/Nico.vue')
   }
 ]
 
