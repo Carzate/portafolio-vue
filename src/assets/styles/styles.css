@@ -151,8 +151,9 @@ span{
 }
 
 .img-port {
-  height: 400px;
   width: 100%;
+  border: 0px solid black;
+  box-shadow: 0px 0px 9px 0px;
 }
 
 .fondo-gris {
@@ -168,3 +169,21 @@ span{
 .espaciado {
   width: 100px;
 }
+
+/*Proyectos*/
+
+.lateral-subtitulo {
+  font-size: 13px;
+  color: #666666;
+}
+
+.lateral-texto {
+  font-size: 15px;
+}
+
+.centar {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+

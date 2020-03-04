@@ -7,6 +7,7 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-toolbar-title>CEAF</v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer
@@ -49,9 +50,9 @@ export default {
       return {
           drawer: null,
           items: [
-              { title: 'Inicio', icon: 'mdi-view-dashboard', link: '/' },
+              { title: 'Inicio', icon: 'mdi-home', link: '/' },
               { title: 'Acerca', icon: 'mdi-account', link: '/about' },
-              { title: 'Trabajos', icon: 'mdi-gavel', link: 'portafolio/1' },
+              { title: 'Trabajos', icon: 'mdi-briefcase', link: 'portafolio' },
                 ],
           icons: [
               { icons: 'mdi-instagram'},

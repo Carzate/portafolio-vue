@@ -1,14 +1,15 @@
 <template>
     <div>
-        <div class="principal">
-            <agile :nav-buttons="false" :autoplay-speed="4000" :speed="1500" fade="fade" autoplay="autoplay">
-                <img class="slide" src="https://images.unsplash.com/photo-1509549649946-f1b6276d4f35?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
-                <img class="slide" src="https://images.unsplash.com/photo-1511469054436-c7dedf24c66b?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/>
-                <img class="slide" src="https://images.unsplash.com/photo-1511135232973-c3ee80040060?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/><img class="slide" src="https://images.unsplash.com/photo-1511231683436-44735d14c11c?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/><img class="slide" src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/>
-            </agile>
+        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
+            <div class="principal">
+                <agile :nav-buttons="false" :autoplay-speed="4000" :speed="1500" fade="fade" autoplay="autoplay">
+                    <img class="slide" src="https://images.unsplash.com/photo-1509549649946-f1b6276d4f35?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ"/>
+                    <img class="slide" src="https://images.unsplash.com/photo-1511469054436-c7dedf24c66b?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/>
+                    <img class="slide" src="https://images.unsplash.com/photo-1511135232973-c3ee80040060?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/><img class="slide" src="https://images.unsplash.com/photo-1511231683436-44735d14c11c?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/><img class="slide" src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1600&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"/>
+                </agile>
+            </div>
         </div>
-
-        <div class="acerca-home" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
+        <div class="acerca-home" data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
             <v-container>
                 <v-row>
                     <v-col cols="12" md="7">
@@ -28,13 +29,19 @@
                             </ul>
                         </v-expansion-panel-content>
                         </v-expansion-panel>
+                        <v-expansion-panel>
+                        <v-expansion-panel-header>Descargar CV</v-expansion-panel-header>
+                        <v-expansion-panel-content>
+                            <v-btn color="black" dark rounded>Descargar</v-btn>
+                        </v-expansion-panel-content>
+                        </v-expansion-panel>
                         </v-expansion-panels>
                     </v-col>
                 </v-row>
             </v-container>
         </div>
 
-        <div class="acerca-home" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
+        <div class="acerca-home" data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
             <v-container>
                 <p class="heading"> ¿A qué me dedico?</p>
                 <h3 class="acerca-home-title mb-9">Algo de mi experiencia</h3>
@@ -42,7 +49,7 @@
                     <v-col cols="12" md="6" sm="6" v-for="item in exp" :key="item.icon">
                         <div class="d-flex">
                             <div class="espaciado">
-                             <v-icon flat large class="iconos-home" color="green">{{item.icon}}</v-icon>
+                             <v-icon flat large class="iconos-home" color="black">{{item.icon}}</v-icon>
                              </div>
                         <div class="texto-iconos">
                             <p class="bold">{{item.title}}</p>
@@ -54,18 +61,18 @@
             </v-container>
         </div>
 
-        <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
+        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
         <v-container>
             <p class="heading"> Mi trabajo</p>
             <h3 class="acerca-home-title mb-9">Trabajos recientes</h3>
             <v-row>
-                <v-col md="6" v-for="item in portafolio" :key="item.sitio">
+                <v-col cols="12" sm="6" md="6" v-for="item in portafolio" :key="item.sitio">
                     <v-hover v-slot:default="{ hover }">
-                        <v-img v-bind:src="item.picture" v-bind:alt="item.alt" class="img-port">
+                        <v-img position="top" v-bind:src="require(`@/assets/images/${item.picture}`)" v-bind:alt="item.alt" class="img-port">
                             <v-expand-transition>
                                 <v-overlay v-if="hover" absolute color="black">
-                                    <p class="white--text">Sitio web de venta online</p>
-                                    <v-btn absolute right round color="black">Ver proyecto</v-btn>
+                                    <p class="white--text">{{item.sitio}}</p>
+                                    <v-btn absolute right rounded color="black" :to="item.link" link>Ver proyecto</v-btn>
                                 </v-overlay>
                             </v-expand-transition>
                         </v-img>
@@ -99,17 +106,17 @@ export default {
     return {
         dialog: false,
         exp: [
-            {icon: 'mdi-home', title: 'Desarrollo Web', descripcion: 'Me gusta planificar las cosas y que todo tenga un orden progresivo'},
-            {icon: 'mdi-arrow-left', title: 'Diseño Web', descripcion: 'Holas jsgfhevma  sbckebk chdvkjv  ev,e cuando espero esta tarde un sol enomre'},
-            {icon: 'mdi-magnify', title: 'Branding', descripcion: 'Holas jsgfhevma  sbckebk chdvkjv  ev,e cuando espero esta tarde un sol enomre'},
-            {icon: 'mdi-arrow-right', title: 'SEO', descripcion: 'Holas jsgfhevma  sbckebk chdvkjv  ev,e cuando espero esta tarde un sol enomre'},
-            {icon: 'mdi-dashboard', title: 'Google Ads', descripcion: 'Holas jsgfhevma  sbckebk chdvkjv  ev,e cuando espero esta tarde un sol enomre'}
+            {icon: 'mdi-code-tags', title: 'Desarrollo Web', descripcion: 'Con las nuevas tecnologías creo desde páginas sencillas hasta aplicaciones web.'},
+            {icon: 'mdi-border-color', title: 'Diseño Web', descripcion: 'Con las tendencias del diseño hago páginas adaptables a todos los dispositivos.'},
+            {icon: 'mdi-google', title: 'Google Ads', descripcion: 'Para posicionar las páginas en los primeros resultados de Google.'},
+            {icon: 'mdi-facebook', title: 'Social Media', descripcion: 'Publicación de contenido incluyendo Facebook Ads y tráfico segmentado a web.'},
+            {icon: 'mdi-currency-usd', title: 'E-commerce', descripcion: 'Creación de tiendas en línea utilizando Wordpress y Shopify'}
         ],
         portafolio: [
-            {sitio: 'Sitio web de e-commerce', picture: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png', alt:'Proyecto Urbaby'},
-            {sitio: 'Sitio web de Venta', picture: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png', alt:'Proyecto Urbaby'},
-            {sitio: 'Sitio web de e-commerce', picture: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png', alt:'Proyecto Urbaby'},
-            {sitio: 'Sitio web de Venta', picture: 'https://cdn.vuetifyjs.com/images/cards/kitchen.png', alt:'Proyecto Urbaby'}
+            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/proyecto' },
+            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat'},
+            {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby'},
+            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro'}
         ]
     }
     },

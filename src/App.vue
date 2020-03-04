@@ -30,3 +30,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+  .theme--light.v-footer {
+    background-color: transparent !important;
+  }
+</style>
