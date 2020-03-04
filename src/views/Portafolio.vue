@@ -35,7 +35,7 @@ export default {
             {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby', link: '/jetsurf'},
             {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro', link: '/cultiva'},
             {sitio: 'Cumpleaños Nicolás', picture: 'Nico.jpg', alt:'Proyecto Cumpleaños', link: '/nico'},
-            {sitio: 'Artista Rafa Gual', picture: 'Rafa.jpg', alt:'Proyecto Rafa Gual'},
+            {sitio: 'Artista Rafa Gual', picture: 'Rafa.jpg', alt:'Proyecto Rafa Gual', link: '/rafa'},
         ]
     }
     }
