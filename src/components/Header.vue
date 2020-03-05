@@ -52,7 +52,8 @@ export default {
           items: [
               { title: 'Inicio', icon: 'mdi-home', link: '/' },
               { title: 'Acerca', icon: 'mdi-account', link: '/about' },
-              { title: 'Trabajos', icon: 'mdi-briefcase', link: 'portafolio' },
+              { title: 'Trabajos', icon: 'mdi-briefcase', link: '/portafolio' },
+              { title: 'Contacto', icon: 'mdi-email', link: '/contacto' },
                 ],
           icons: [
               { icons: 'mdi-instagram', link: '//www.instagram.com/ichrisaf/'},

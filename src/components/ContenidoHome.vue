@@ -88,7 +88,7 @@
                 <v-container>
                     <h3 class="display-1">Trabajemos juntos</h3>
                     <h4 class="body-1 mt-9">Conecta conmigo si necesitas un desarrollador web o tienes una pregunta </h4>
-                    <v-btn color="black" dark rounded class="mt-9">Contacto</v-btn>
+                    <v-btn color="black" dark rounded class="mt-9" link to="/contacto">Contacto</v-btn>
                 </v-container>
             </div>
         </div>

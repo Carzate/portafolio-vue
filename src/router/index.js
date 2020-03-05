@@ -52,6 +52,11 @@ const routes = [
     path: '/rafa',
     name: 'Rafa',
     component: () => import('../views/Rafa.vue')
+  },
+  {
+    path: '/contacto',
+    name: 'Contacto',
+    component: () => import('../views/Contacto.vue')
   }
 ]
 
