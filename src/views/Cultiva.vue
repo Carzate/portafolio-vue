@@ -15,10 +15,10 @@
                         <v-banner sticky elevation="2">
                             <h2 class="mt-5">Cultiva Futuro</h2>
                             <p class="mt-3 mb-3 lateral-subtitulo">Noticias</p>
-                            <p class="lateral-texto">Un sitio web donde se incluyen noticias, blog, productos, eventos, todo relacionado a la agricultura.</p>
-                            <p class="lateral-texto">Tiene espacios para incluir Ads, espacios para suscribirse a un newsletter para hacer e-mail marketing.</p>
-                            <p class="lateral-texto">Se puede agregar fácilmente nuevas entradas de blog, todos los espacios tiene sliders para que sea agradable la vista de los articulos.</p>
-                            <v-btn color="black" dark href="https://www.urbaby.mx" target="_blank">Vista de sitio</v-btn>
+                            <p class="lateral-texto">La página web tiene como objetivo que cualquier usuario pueda interesarse por el tema de agricultura, ya que se incluyen noticias, blog, productos y eventos relacionados.</p>
+                            <p class="lateral-texto">Todo el contenido se va actualizando por el usuario administrador, que tiene el control de la página y las secciones.</p>
+                            <p class="lateral-texto">Para la mejor experincia de usuario, tiene imágenes y videos en forma de sliders, colores llamativos e interatividad con efectos.</p>
+                            <v-btn color="black" dark href="https://cultivafuturo.com/" target="_blank">Vista de sitio</v-btn>
                         </v-banner>
                     </v-col>
                 </v-row>

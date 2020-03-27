@@ -14,7 +14,9 @@
                         <v-banner sticky elevation="2">
                             <h2 class="mt-5">Jetsurf</h2>
                             <p class="mt-3 mb-3 lateral-subtitulo">Presentación de productos</p>
-                            <p class="lateral-texto">Un sitio web para presentar los productos que se venden en el negocio, también sirve para tener presencia en línea y que la gente sepa donde se ubica</p>
+                            <p class="lateral-texto">El diseño está pensado para que el usuario tenga la misma sensación de adrenalina cuando está arriba de las tablas motorizadas. </p>
+                            <p class="lateral-texto">Se utilizaron fotos reales con el uso de las tablas. Cada producto tiene sus descripción, precio, galería de fotos y un menú de fácil acceso que te acompaña en todo momento sin estorbar. </p>
+                            <p class="lateral-texto">En este sitio web se presentan los productos que se venden en el negocio, incluye datos de contacto, redes sociales y la ubiación con Google Maps. </p>
                             <v-btn color="black" dark href="https://www.jetsurfcdmx.com" target="_blank">Vista de sitio</v-btn>
                         </v-banner>
                     </v-col>

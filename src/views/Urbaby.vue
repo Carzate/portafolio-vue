@@ -15,9 +15,13 @@
                         <v-banner sticky elevation="2">
                             <h2 class="mt-5">Urbaby</h2>
                             <p class="mt-3 mb-3 lateral-subtitulo">E-commerce</p>
-                            <p class="lateral-texto">Un sitio web de venta en línea de productos para bebé, utilzación de Paypal para completar los pagos, está conectado a una apliacion de paquetería, tiene Google analitycs y Mailchimp para hacer e-mail Marketing.</p>
-                            <p class="lateral-texto">Los productos están organizados por categorías, dentro de cada uno tiene opciones para elegir el color, tamaño y agregar varios productos al carrito, al final se le agrega el costo de envío y se obtienen los datos del cliente.</p>
-                            <p class="lateral-texto">Se puede agregar fácilmente productos nuevos, hacer descuentos por tiempo limitado, uso de cupones, contar con stock limitado de los productos, etc.</p>
+                            <p class="lateral-texto"> Sitio web pensado para dar la sensación de seguridad y amor en las madres que tienen hijos pequeños, en el cual se venden productos útiles para el cuidado y desarrollo del niño.</p>
+                            
+                            <p class="lateral-texto">Tiene conectado Paypal para cobros en línea, está ligado con la paquetería para descargar las guías de envío y con el servicio de Mailchimp para e-mail Marketing.</p> 
+
+                            <p class="lateral-texto">Los productos se pueden agregar fácilmente, controlar el stock y usar cupones de descuentos limitados.</p> 
+
+                            <p class="lateral-texto">El sitio tiene visitas de 40-100 personas por día.</p>
                             <v-btn color="black" dark href="https://www.urbaby.mx" target="_blank">Vista de sitio</v-btn>
                         </v-banner>
                     </v-col>

@@ -85,7 +85,7 @@ span{
 
 .slide {
   display: block;
-  height: 500px;
+  height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -107,7 +107,7 @@ span{
 /*Acerca home */
 
 .acerca-home {
-  padding-top: 6em;
+  padding-top: 5em;
   padding-bottom: 4em;
 }
 

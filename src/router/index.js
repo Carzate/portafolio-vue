@@ -34,6 +34,11 @@ const routes = [
     component: () => import('../views/Akurat.vue')
   },
   {
+    path: '/kumon',
+    name: 'Kumon',
+    component: () => import('../views/Kumon.vue')
+  },
+  {
     path: '/jetsurf',
     name: 'Jetsurf',
     component: () => import('../views/Jetsurf.vue')

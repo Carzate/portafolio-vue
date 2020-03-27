@@ -6,7 +6,6 @@
                     <img class="slide" src="@/assets/images/desk-3.jpg"/>
                     <img class="slide" src="@/assets/images/code-2.jpg"/>
                     <img class="slide" src="@/assets/images/desk-2.jpg"/>
-                    <img class="slide" src="@/assets/images/code.jpg"/>
                 </agile>
             </div>
         </div>
@@ -18,8 +17,8 @@
                     </v-col>
                     <v-col cols="12" md="5">
                         <p class="heading">Bienvenido</p>
-                        <h3 class="acerca-home-title "> Mi nombre es christian arzate</h3>
-                        <p>Soy ingeniero en computación egresado de la Facultad de Ingeniería de la UNAM. Me apasiona el desarrollo web y cuento con experiencia profesional en Front-End</p>
+                        <h3 class="acerca-home-title">soy christian arzate</h3>
+                        <p class="mb-9">Ingeniero en computación egresado de la Facultad de Ingeniería de la UNAM. Me apasiona el desarrollo web y cuento con experiencia profesional en Front End.</p>
                         <v-expansion-panels class="mb-3">
                         <v-expansion-panel>
                         <v-expansion-panel-header>Educación</v-expansion-panel-header>
@@ -114,10 +113,10 @@ export default {
             {icon: 'mdi-facebook', title: 'Social Media', descripcion: 'Publicación de contenido incluyendo Facebook Ads y tráfico segmentado a web.'},
         ],
         portafolio: [
-            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/urbaby' },
-            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat', link: '/akurat'},
             {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby', link: '/jetsurf'},
-            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro', link: '/cultiva'}
+            {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro', link: '/cultiva'},
+            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/urbaby' },
+            {sitio: 'Landing Page Kumon', picture: 'Kumon.jpg', alt:'Proyecto Kumon', link: '/kumon'},
         ]
     }
     },

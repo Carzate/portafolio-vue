@@ -12,8 +12,8 @@
         <v-simple-table class="d-flex">
           <tbody>
             <tr v-for="item in skills" :key="item.skill">
-            <th><h3>{{item.skill}}</h3> </th> 
-            <th><v-rating small v-bind:value="item.valor" readonly color="black" background-color="grey"></v-rating> </th> 
+            <th> <h3> <v-icon x-small>mdi-checkbox-blank-circle</v-icon> {{item.skill}}</h3> </th> 
+            <th> <h3> <v-icon x-small>mdi-checkbox-blank-circle</v-icon>  {{item.skill2}} </h3> </th> 
             </tr>
           </tbody>
         </v-simple-table>
@@ -32,16 +32,12 @@ export default {
   data () {
     return {
       skills: [
-        {skill: 'HTML5', valor: 5 },
-        {skill: 'JavaScript', valor: 4},
-        {skill: 'CSS3', valor: 5},
-        {skill: 'Vue.js', valor: 4},
-        {skill: 'Wordpress', valor: 5},
-        {skill: 'Git', valor: 4},
-        {skill: 'Photoshop', valor: 3},
-        {skill: 'Responsive Web Design', valor: 4},
-        {skill: 'E-commerce', valor: 4},
-
+        {skill: 'E-commerce', skill2: 'Shopify'},
+        {skill: 'HTML5', skill2: 'CSS3' },
+        {skill: 'JavaScript ES6', skill2: 'Vue.js' },
+        {skill: 'Woocommerce', skill2: 'Wordpress'},
+        {skill: 'Git', skill2: 'Photoshop'},
+        {skill: 'Responsive Web Design', skill2: 'PHP & SQL'},
       ]
     }
   },

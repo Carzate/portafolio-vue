@@ -30,12 +30,15 @@ export default {
     data(){
     return {
         portafolio: [
-            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/urbaby' },
-            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat', link: '/akurat'},
-            {sitio: 'Web de tablas de surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby', link: '/jetsurf'},
+            {sitio: 'Web de Tablas de Surf ', picture: 'Jetsurf.jpg', alt:'Proyecto Urbaby', link: '/jetsurf'},
+            {sitio: 'Landing Page Kumón', picture: 'Kumon.jpg', alt:'Proyecto Akurat', link: '/kumon'},
             {sitio: 'Noticias de Agricultura', picture: 'Cultiva.jpg', alt:'Proyecto Cultiva Futuro', link: '/cultiva'},
-            {sitio: 'Cumpleaños Nicolás', picture: 'Nico.jpg', alt:'Proyecto Cumpleaños', link: '/nico'},
-            {sitio: 'Artista Rafa Gual', picture: 'Rafa.jpg', alt:'Proyecto Rafa Gual', link: '/rafa'},
+            {sitio: 'E-commerce Urbaby', picture: 'Urbaby.jpg', alt:'Proyecto Urbaby', link:'/urbaby' },
+            {sitio: '  Hospital San Diego', picture: 'Hospital.jpg', alt:'Proyecto HospitalSD', link: '/hospital'},
+            {sitio: 'Portafolio Rafael Gual', picture: 'Rafa.jpg', alt:'Proyecto Rafa Gual', link: '/rafa'},
+            {sitio: 'Portafolio Akurat-Arq', picture: 'Akurat.jpg', alt:'Proyecto Akurat', link: '/akurat'},
+            {sitio: 'Portafolio Angular', picture: 'Angular.jpg', alt:'Proyecto Angular', link: '/angular'},
+            {sitio: 'API de Rick & Morty', picture: 'Rick.jpg', alt:'Proyecto HospitalSD', link: '/hospital'},
         ]
     }
     }

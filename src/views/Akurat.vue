@@ -17,7 +17,7 @@
                             <p class="mt-3 mb-3 lateral-subtitulo">Portafolio</p>
                             <p class="lateral-texto">Un sitio web para mostrar los proyectos que la empresa ha trabajado, cada proyecto tiene su descripción e imágenes.</p>
                             <p class="lateral-texto">Tiene funcionalidades y efectos para que la experiencia del usuario sea agradable para ver toda la página.</p>
-                            <v-btn color="black" dark href="https://www.akurat-arq.com" target="_blank">Vista de sitio</v-btn>
+                            <v-btn color="black" dark href="http://www.akurat-arq.com" target="_blank">Vista de sitio</v-btn>
                         </v-banner>
                     </v-col>
                 </v-row>
