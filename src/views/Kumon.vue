@@ -7,6 +7,7 @@
                 <v-row>
                     <v-col cols="12" md="8" sm="8">
                         <img src="@/assets/images/Kumon-home.jpg" width="100%">
+                        <img src="@/assets/images/Kumon-home-2.jpg" width="100%">
                     </v-col>
                     <v-col cols="12" md="4" sm="4">
                         <v-banner sticky elevation="2">

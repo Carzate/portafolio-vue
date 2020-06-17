@@ -49,6 +49,11 @@ const routes = [
     component: () => import('../views/Cultiva.vue')
   },
   {
+    path: '/hospital',
+    name: 'Hospital',
+    component: () => import('../views/Hospital.vue')
+  },
+  {
     path: '/nico',
     name: 'Nico',
     component: () => import('../views/Nico.vue')

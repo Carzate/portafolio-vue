@@ -32,7 +32,7 @@
                         <v-expansion-panel>
                         <v-expansion-panel-header>Descargar CV</v-expansion-panel-header>
                         <v-expansion-panel-content>
-                            <v-btn color="black" dark rounded target="_blank" to="//drive.google.com/file/d/1TfZ4fm0aYeJzyXcaSvjiCeCt6c-YhFJS/view?usp=sharing">Descargar</v-btn>
+                            <v-btn color="black" dark rounded target="_blank" to="//drive.google.com/file/d/17UnuxuUPDLLxUMJpo_MSoB-K-mZmoD7X/view?usp=sharing">Descargar</v-btn>
                         </v-expansion-panel-content>
                         </v-expansion-panel>
                         </v-expansion-panels>
